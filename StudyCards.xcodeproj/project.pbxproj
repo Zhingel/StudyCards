@@ -3,23 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		EE532F6925BED7B500522DF0 /* StudyCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE532F6825BED7B500522DF0 /* StudyCardsApp.swift */; };
-		EE532F6B25BED7B500522DF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE532F6A25BED7B500522DF0 /* ContentView.swift */; };
+		EE532F6B25BED7B500522DF0 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE532F6A25BED7B500522DF0 /* CardListView.swift */; };
 		EE532F6D25BED7B700522DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE532F6C25BED7B700522DF0 /* Assets.xcassets */; };
 		EE532F7025BED7B700522DF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE532F6F25BED7B700522DF0 /* Preview Assets.xcassets */; };
+		EE532F7A25BEDA0B00522DF0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EE532F7925BEDA0B00522DF0 /* FirebaseFirestore */; };
+		EE532F7C25BEDA0B00522DF0 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = EE532F7B25BEDA0B00522DF0 /* FirebaseFirestoreSwift-Beta */; };
+		EE532F8125BEDB8600522DF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE532F8025BEDB8600522DF0 /* GoogleService-Info.plist */; };
+		EE532F8A25BEDF7B00522DF0 /* CardRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE532F8925BEDF7B00522DF0 /* CardRespository.swift */; };
+		EE532F8E25BEE29800522DF0 /* StudyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE532F8D25BEE29800522DF0 /* StudyCard.swift */; };
+		EE532F9125BEE7B500522DF0 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE532F9025BEE7B500522DF0 /* CardListViewModel.swift */; };
+		EE532F9425BEEFC600522DF0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE532F9325BEEFC600522DF0 /* CardView.swift */; };
+		EE532F9725BEF06E00522DF0 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE532F9625BEF06E00522DF0 /* CardViewModel.swift */; };
+		EE532F9A25BF397000522DF0 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE532F9925BF397000522DF0 /* FormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE532F6525BED7B500522DF0 /* StudyCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE532F6825BED7B500522DF0 /* StudyCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCardsApp.swift; sourceTree = "<group>"; };
-		EE532F6A25BED7B500522DF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE532F6A25BED7B500522DF0 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
 		EE532F6C25BED7B700522DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE532F6F25BED7B700522DF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE532F7125BED7B700522DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE532F8025BEDB8600522DF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE532F8925BEDF7B00522DF0 /* CardRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRespository.swift; sourceTree = "<group>"; };
+		EE532F8D25BEE29800522DF0 /* StudyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCard.swift; sourceTree = "<group>"; };
+		EE532F9025BEE7B500522DF0 /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
+		EE532F9325BEEFC600522DF0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EE532F9625BEF06E00522DF0 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		EE532F9925BF397000522DF0 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE532F7A25BEDA0B00522DF0 /* FirebaseFirestore in Frameworks */,
+				EE532F7C25BEDA0B00522DF0 /* FirebaseFirestoreSwift-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +71,13 @@
 			isa = PBXGroup;
 			children = (
 				EE532F6825BED7B500522DF0 /* StudyCardsApp.swift */,
-				EE532F6A25BED7B500522DF0 /* ContentView.swift */,
+				EE532F8825BEDF1C00522DF0 /* Repository */,
+				EE532F8725BEDEEC00522DF0 /* ViewModels */,
+				EE532F8625BEDEB400522DF0 /* Models */,
+				EE532F8425BEDE7500522DF0 /* Views */,
 				EE532F6C25BED7B700522DF0 /* Assets.xcassets */,
 				EE532F7125BED7B700522DF0 /* Info.plist */,
+				EE532F8025BEDB8600522DF0 /* GoogleService-Info.plist */,
 				EE532F6E25BED7B700522DF0 /* Preview Content */,
 			);
 			path = StudyCards;
@@ -67,6 +89,41 @@
 				EE532F6F25BED7B700522DF0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE532F8425BEDE7500522DF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE532F6A25BED7B500522DF0 /* CardListView.swift */,
+				EE532F9925BF397000522DF0 /* FormView.swift */,
+				EE532F9325BEEFC600522DF0 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE532F8625BEDEB400522DF0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE532F8D25BEE29800522DF0 /* StudyCard.swift */,
+				EE532F9625BEF06E00522DF0 /* CardViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE532F8725BEDEEC00522DF0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EE532F9025BEE7B500522DF0 /* CardListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EE532F8825BEDF1C00522DF0 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				EE532F8925BEDF7B00522DF0 /* CardRespository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +142,10 @@
 			dependencies = (
 			);
 			name = StudyCards;
+			packageProductDependencies = (
+				EE532F7925BEDA0B00522DF0 /* FirebaseFirestore */,
+				EE532F7B25BEDA0B00522DF0 /* FirebaseFirestoreSwift-Beta */,
+			);
 			productName = StudyCards;
 			productReference = EE532F6525BED7B500522DF0 /* StudyCards.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +173,9 @@
 				Base,
 			);
 			mainGroup = EE532F5C25BED7B500522DF0;
+			packageReferences = (
+				EE532F7825BEDA0B00522DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = EE532F6625BED7B500522DF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +192,7 @@
 			files = (
 				EE532F7025BED7B700522DF0 /* Preview Assets.xcassets in Resources */,
 				EE532F6D25BED7B700522DF0 /* Assets.xcassets in Resources */,
+				EE532F8125BEDB8600522DF0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +203,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE532F6B25BED7B500522DF0 /* ContentView.swift in Sources */,
+				EE532F9A25BF397000522DF0 /* FormView.swift in Sources */,
+				EE532F9125BEE7B500522DF0 /* CardListViewModel.swift in Sources */,
+				EE532F6B25BED7B500522DF0 /* CardListView.swift in Sources */,
+				EE532F8E25BEE29800522DF0 /* StudyCard.swift in Sources */,
 				EE532F6925BED7B500522DF0 /* StudyCardsApp.swift in Sources */,
+				EE532F9425BEEFC600522DF0 /* CardView.swift in Sources */,
+				EE532F8A25BEDF7B00522DF0 /* CardRespository.swift in Sources */,
+				EE532F9725BEF06E00522DF0 /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +399,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE532F7825BEDA0B00522DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE532F7925BEDA0B00522DF0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE532F7825BEDA0B00522DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		EE532F7B25BEDA0B00522DF0 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE532F7825BEDA0B00522DF0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE532F5D25BED7B500522DF0 /* Project object */;
 }
